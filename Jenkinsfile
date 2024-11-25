@@ -51,4 +51,3 @@ passwordVariable: 'DOCKER _PASSWORD')]) {
 			}
 		}	
 	}
-}
