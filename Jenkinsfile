@@ -11,7 +11,7 @@ pipeline {
 			steps {
 			     try {
 				   git branch: 'main' , url: GIT_REPOSITORY_URL
-				} catch (EXCEPTION e) {
+				} catch (Exception e) {
 					echo "Failed to clone repository: ${e.message}"
 					error "Failed to clone repository"
 				}
